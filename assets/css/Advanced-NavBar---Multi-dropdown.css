@@ -3,7 +3,11 @@
   color: #8d97ad;
   font-weight: 300;
 }
-
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 .header2.bg-success-gradiant {
   background: #2cdd9b;
   background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
