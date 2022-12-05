@@ -29,10 +29,10 @@
 							Service Management <i class="icon-arrow-down ml-1 font-12"></i>
 						</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Jira</a></li>
+              <li><a  class="dropdown-item" href="#">Jira</a></li>
               <li class="dropdown-submenu position-relative"> <a class="dropdown-toggle dropdown-item" data-toggle="dropdown" href="#">Service Now <i class="icon-arrow-right float-right mt-1"></i></a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Change</a></li>
+                  <li><a  class="dropdown-item" onclick="change_text()" href="#">Change</a></li>
                   <li><a class="dropdown-item" href="#">Incident</a></li>
                   <li><a class="dropdown-item" href="#">Problem</a></li>
 
@@ -129,15 +129,16 @@
     <!-- End Header 1 code -->
   </div>
 
-    <object data="https://www.alenjoses.com" width="600" height="400">
-        <embed src="https://www.alenjoses.com"" width="600" height="400"/>
-    </object>
+
 
 <!--    <iframe src="https://www.alenjoses.com" title="W3Schools Free Online Web Tutorials">-->
 <!--    </iframe>-->
 
 
 </div>
+<object  width="100%" height="550">
+    <embed id="demo" width="100%" height="550"/>
+</object>
 <footer class="text-center ">
 <div class=" header2 bg-success-gradiant container-fluid mt-3 " style="height: 80px;width: 100%;">
 
@@ -146,6 +147,11 @@
         <p class="text-light">Copyright © 2022 | Wells Fargo</p>
 
 </div>
+    <script>
+        function change_text(){
+            document.getElementById("demo").setAttribute("src", "https://www.alenjoses.com")
+        }
+    </script>
 </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/Advanced-NavBar---Multi-dropdown.js"></script>
